@@ -1,0 +1,98 @@
+
+
+#navbar {
+    height: 148px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    background-color: black;
+    font-family: " BBText Bold" Helvetica, Arial, sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #heading {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 15px;
+    padding-right: 32px;
+    padding-left: 32px;
+    /* border: 1px solid red; */
+  }
+  #heading,
+  h6 {
+    font-size: 11px;
+    font-family: "BBText Bold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    gap: 2px;
+    letter-spacing: 2px;
+  }
+  
+  #name,
+  img {
+    height: 38px;
+    width: 340px;
+    /* border: 1px solid red; */
+    margin-left: 170px;
+    margin-top: 0px;
+    padding-top: 0%;
+  }
+  #login_div {
+    /* border: 1px solid turquoise; */
+    height: 15px;
+    justify-content: space-around;
+    margin-left: 370px;
+    color: white;
+  }
+  .join {
+    color: white;
+    text-decoration: none;
+  }
+  .location_icon {
+    margin-left: 15px;
+    font-size: 23px;
+  }
+  #products {
+    height: 33px;
+    width: 98%;
+    /* border: 1px solid yellowgreen; */
+    margin-top: 35px;
+    display: flex;
+  }
+  #products input {
+    /* color: white; */
+    width: 150px;
+    background-color: black;
+    border: none;
+    /* text-underline-position: below; */
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    color: rgba(255, 255, 255, 0.913);
+  }
+  #product_names {
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .products_heading {
+    padding-right: 40px;
+    /* padding-top: 15px; */
+    font-size: 14px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    /* border: 1px solid turquoise; */
+    height: 7px;
+  }
+  #email_signup.hover_div {
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid gold; */
+    /* display: none; */
+    position: absolute;
+  }
+  
+  
+  
+  
+  
+  
+  

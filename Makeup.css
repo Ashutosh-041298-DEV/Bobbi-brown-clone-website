@@ -1,0 +1,635 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.top{
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    padding-top: 40PX;
+
+}
+.search {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 65px;
+    border-bottom: 1px solid white;
+}
+input, optgroup, select, textarea {
+    background-color: black;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: -90px;
+    color: white;
+    /* padding: 30px; */
+    border: 0px;
+}
+*:focus {
+        outline: none;
+    }
+
+.left {
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+section {
+    display: block;
+    background-color: black;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-start;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 3.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.rem;
+    font-size: 15px;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+    padding-right: 20px;
+}
+a.navbar-brand:hover {
+    text-decoration: underline;
+}
+a.navbar-brand {
+    text-decoration: none;
+}
+
+#mainimg{
+    background-image:url("https://www.bobbibrowncosmetics.com/media/export/cms/mpp/SS20/MPP-Category-Header-BestSellers-PC_@2x.jpg" );
+    background-size: cover;
+    border:1px solid #ffffff;
+    height:300px;
+}
+#face{
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+    background-color: none;
+    background-image: transparent;
+    font-size: 60px;
+
+}
+/* end header */
+#homediv{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width:95%;
+    font-size: 13px;
+    color:gray;
+}
+#sortdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 98%;
+
+}
+#sort{
+    width: 200px;
+    display:inline-block;
+    height:35px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+#datadiv{
+    width:96%;
+    margin:auto;
+    display: grid;;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(10,667px);
+    gap: 25px;
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+div>.img{
+    width:100%;height:400px;
+}
+.imgdiv{
+    background: url("https://www.bobbibrowncosmetics.com/media/export/cms/mpp/SS22/SS22_SkinCCStick_pc.jpg");
+    background-size:cover;
+    color:white;
+    text-align: center;
+
+}
+.addtocart{
+    height:30px;
+    width:150px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    border:0;
+    margin-top: 20px;
+}
+.h3{
+    margin-top: 50px;
+}
+
+.un{
+    color:gray;
+}
+.colordiv{
+    width:60%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.colordiv>div{
+    width:8%;
+    height: 20px;
+
+    border-radius: 50px;
+}
+.imgdiv4>.h4{
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+}
+.c1{
+    background-color: #d9a779;
+}
+.c2{
+    background-color: #d6a075;
+}
+.c3{
+    background-color: #d3996f;
+}
+.c4{
+    background-color: #d7a770;
+}
+.c5{
+    background-color: #ca8f63;
+}
+.c6{
+    background-color: #d79654;            
+}
+.c7{
+    background-color: #ca9450;
+}
+.c1:hover{
+    border:1px solid black;
+}
+.c2:hover{
+    border:1px solid black;
+}
+.c3:hover{
+    border:1px solid black;
+}
+.c4:hover{
+    border:1px solid black;
+}
+.c5:hover{
+    border:1px solid black;
+}
+.c6:hover{
+    border:1px solid black;            
+}
+.c7:hover{
+    border:1px solid black;
+}
+.colordiv+h3{
+    margin-top: 6px;
+}
+.h3+h4{
+    margin-top: -15px;
+}
+.imgdiv3>div{
+    margin:auto;
+    font-size: 35px;
+    margin-top:200px;
+    
+}
+.imgdiv3>div~button{
+    height:35px;
+    width: 150px;
+    font-weight: bold;
+}
+.imgdiv4>div{
+    margin:auto;
+    font-size: 35px;
+    margin-top:200px;
+    
+}
+.imgdiv4>div~button{
+    height:35px;
+    width: 150px;
+    font-weight: bold;
+}
+.imgdiv2{
+    background: url("https://www.reallyree.com/wp-content/uploads/2014/09/gucci-cosmetics-collection-lipsticks1.jpg" );
+    background-size:cover;
+}
+.imgdiv3{
+    background: url("https://www.bobbibrowncosmetics.com/media/export/cms/how_to/MPP%20Touts/BB_PC_MPP_Tile_Guide_Foundation_@2x.jpg");
+    background-size:cover;
+    color:white;
+    text-align: center;
+
+}
+.imgdiv4{
+    background: url("https://www.bobbibrowncosmetics.com/media/export/cms/how_to/MPP%20Touts/BB_PC_MPP_Tile_How_To_Complexion_@2x.jpg");
+    background-size:cover;
+    color:white;
+    text-align: center;
+
+}
+.hoverimg{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EGXR04_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EGXR04_600x600_1.jpg");
+}
+.hoverimg2{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL17_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg2:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPXL17_600x600_1.jpg");
+} 
+.hoverimg3{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ09_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg3:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ09_600x600_1.jpg");
+}
+.hoverimg4{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EER901_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg4:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETRR01_600x600_1.jpg");
+}
+.hoverimg5{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENPT01_600x600_1.jpg");
+    background-size: cover;
+}
+.hoverimg5:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ENPT01_1080x1080_0.jpg");
+     }
+.hoverimg6{
+    width:100%;
+    height:400px;
+    background-image:url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E40_600x600_0.jpg");         
+    background-size: cover;
+}
+.hoverimg6:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E40_600x600_1.jpg");
+}
+.hoverimg7{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFAA01_600x600_0.jpg" );
+    background-size: cover;
+}
+.hoverimg7:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFAA01_600x600_1.jpg");
+}
+.hoverimg8{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E6XW02_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg8:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E6XW02_600x600_1.jpg");
+}
+.hoverimg9{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EM4201_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg10{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMCK01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg10:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EMCK01_600x600_1.jpg");
+}
+.hoverimg11{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENPW01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg11:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ENPW01_600x600_1.jpg");
+}
+.hoverimg12{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E9TN01_600x600_0.jpg" );
+    background-size: cover;
+}
+.hoverimg12:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E9TN01_600x600_1.jpg");
+}
+.hoverimg13{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EH9A01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg14{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EA6C17_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg14:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EA6C17_600x600_1.jpg");
+}
+.hoverimg15{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_0.jpg" );
+    background-size: cover;
+}
+.hoverimg15:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EFX201_600x600_1.jpg");
+}
+.hoverimg16{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65Y01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg17{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ECNF09_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg17:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ECNF09_600x600_1.jpg");
+}
+.hoverimg18{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E0KK07_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg18:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E0KK07_600x600_1.jpg")
+}
+.hoverimg19{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E7YW01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg20{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPGN01_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg21{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH201_600x600_0.jpg");
+    background-size: cover;
+}
+.hoverimg21:hover{
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EPH201_600x600_1.jpg")
+}
+.hoverimg22{
+    width:100%;
+    height:400px;
+    background-image: url("https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E65X01_600x600_0.jpg");
+    background-size: cover;
+}
+.bottompara{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    margin-top: -45%;
+}
+#footer{
+    background-color:  white;
+    color: 000000;
+   
+    text-align: center;
+    font-size: 1.5rem;
+    }
+    #footer{
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 600px;
+    }
+ #footercont{
+     
+     width: 100%;
+     height: 400px;
+     border: none;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 1px;
+     margin: auto;
+    color: white;
+ } 
+ .boxincont{
+     
+     
+     height: 400px;
+     text-align: left;
+     padding: 40px;
+     font-size: 15px;
+ } 
+ #locationf {
+background-color: black;
+color: white;
+padding: 10px 20px 10px 20px;
+margin-top: 10px;
+border: 1px solid aliceblue;
+}
+ .ftbox3{
+    background-color: black;
+     color: white;
+     padding: 10px 30px 10px 20px;
+      border: 1px solid white; 
+      margin-bottom:  20px;
+    }
+
+ /* .img{
+     height: 20px;
+     width: auto;
+ } */
+ #belowhr {
+    display: flex;
+    width: 100%;
+    height: 100PX;
+    justify-content: space-between;
+}
+ #belowhr1{
+    display: flex;
+    width: 50%;
+    
+ }
+ #imglast{
+     display: flex;
+     justify-content: right;
+     align-items: flex-start;
+     padding-right: 40px;
+     width: 100%;
+ }
+ 
+
+ ul {
+list-style: none;
+margin-left: -58px
+
+}
+
+ul li {
+ margin:5px 5px; 
+ float:left; 
+ font-size: 25px;
+}
+
+.wp-icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+text-align: center; 
+line-height: 50px;
+vertical-align: middle;
+color: #fff;
+margin-right: 5px; 
+}
+
+.fa-facebook-f {
+background: black;
+}
+.nv-1 {
+font-size: 11px;
+font-weight: 700;
+letter-spacing: 2px;
+}
+.nv-2 {
+text-decoration: underline;
+font-size: 11px;
+}
+
+.fa-twitter {
+background: black;
+}
+.fa-instagram {
+background: black;
+
+}
+
+.fa-youtube {
+background: black;
+}
+
+.fa-pinterest {
+background: black;
+}
+.need{
+font-size: 18Px;
+
+}
+.need1{
+font-size: 14Px;
+text-transform: capitalize!important;
+
+}
+
+hr {
+margin-top: 0rem;
+margin-bottom: 2rem;
+border: 0;
+border-top: 1px solid rgb(255 246 246);
+width: 100%;
+/* margin: 24px; */
+/* margin-left: 7PX; */
+/* margin-right: -39PX; */
+}
+.need2 {
+font-size: 18Px;
+margin-top: 15px;
+}
+.blank{
+height: 300px;
+background-color: #fff;
+}
+
+.copy {
+font-size: 15px;
+}
+.copyp {
+width: 100%;
+text-align: initial;
+color: #b7b7b8;
+font-size: 16px;
+}
+.copy1 {
+width: 60%;
+text-align: initial;
+color: #b7b7b8;
+font-size: 16px;
+}
+.copy2 {
+width: 60%;
+text-align: initial;
+color: #b7b7b8;
+}
+input.ftbox3:hover {
+background-color: #333333;
+}
+.imgbb{
+width:345px;
+height:40px
+}

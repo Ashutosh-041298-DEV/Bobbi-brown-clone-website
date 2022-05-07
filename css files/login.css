@@ -1,0 +1,276 @@
+
+
+#navbar {
+  height: 148px;
+  width: 100%;
+  /* border: 1px solid rebeccapurple; */
+  background-color: black;
+  font-family: " BBText Bold" Helvetica, Arial, sans-serif;
+  color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#heading {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
+  /* border: 1px solid blue; */
+}
+#heading,
+h6 {
+  font-size: 11px;
+  font-family: "BBText Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  gap: 2px;
+  letter-spacing: 2px;
+}
+
+#name,
+img {
+  height: 38px;
+  width: 340px;
+  /* border: 1px solid red; */
+  margin-left: 170px;
+  margin-top: 0px;
+  padding-top: 0%;
+}
+#login_div {
+  /* border: 1px solid turquoise; */
+  height: 15px;
+  justify-content: space-around;
+  margin-left: 370px;
+  color: white;
+}
+.join {
+  color: white;
+  text-decoration: none;
+}
+.location_icon {
+  margin-left: 15px;
+  font-size: 23px;
+}
+#products {
+  height: 33px;
+  width: 98%;
+  /* border: 1px solid yellowgreen; */
+  margin-top: 35px;
+  display: flex;
+}
+#products input {
+  width: 150px;
+  background-color: black;
+  border: none;
+  text-underline-position: below;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+#product_names {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.products_heading {
+  padding-right: 40px;
+  /* padding-top: 15px; */
+  font-size: 14px;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+  /* border: 1px solid turquoise; */
+  height: 7px;
+}
+#email_signup.hover_div {
+  height: 400px;
+  width: 300px;
+  border: 1px solid gold;
+  /* display: none; */
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_container{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    padding-left: 20%;
+    margin-top: 30px;
+  
+}
+#login_page_div{
+height: 500px;
+width: 40%;
+/* border: 1px solid red; */
+font-family: "BBText Bold", Helvetica, Arial, sans-serif;
+letter-spacing: 2PX;
+padding-left: 100px;
+padding-right: 40px;
+border-right: 1px solid black;
+}
+#login_page_heading{
+  /* border: 1px solid blue; */
+  margin-top: 30px;
+  line-height: 5px;
+}
+#login_page_heading h5{
+  font-size: 13px;
+  /* border: 1px solid brown; */
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+#login_page_heading h2{
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+#login_page_input_div #login_username{
+    height: 30px;
+    width: 95%;
+    /* border: 1px solid green; */
+    margin-top: 15px;
+}
+#login_page_input_div #login_password{
+  height: 30px;
+  width: 95%;
+  /* border: 1px solid green; */
+  margin-top: 15px;
+}
+#login_page_input_div label{
+  font-size: 12px;
+  text-decoration: underline;
+}
+#login_page_loginbtn{
+  height: 30px;
+  width: 95%;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 15px;
+}
+#login_page_signup_div{
+  /* border: 1px solid green; */
+  width: 30%;
+}
+#login_page_signup_div h6{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+#login_page_signup_div h5{
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
+
+#login_page_signup_div input{
+/* border: 1px solid blue; */
+height: 30px;
+width: 95%;
+}
+
+#login_page_signup_div #name{
+/* border: 1px solid red; */
+text-align: left;
+}
+#submit{
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start */
+
+#main_footer_div{
+  height: 610px;
+  width: 99%;
+  background-color: black;
+  margin-top: 25px;
+}
+
+#main_info{
+  display: flex;
+  gap: 100px;
+  color: white;
+  padding-top: 45PX;
+  padding-left: 30px;
+  /* border: 1PX solid red; */
+
+}
+#main_info h6{
+  font-size: 15px;
+  FONT-FAMILY:
+"BBText Regular", Helvetica, Arial, sans-serif;
+font-weight: normal;
+}
+#main_info select{
+  background-color: black;
+  height: 35px;
+  width: 240px;
+  color: white;
+  text-align: center;
+}
+.footer_input{
+  background-color: black;
+  height: 40px;
+  width: 250px;
+  color: white;
+  border: 1PX solid white;
+  padding-left: 10PX;
+}
+.sub_btn{
+background-color: black;
+color: white;
+border:1PX solid white ;
+width:150px ;
+height: 40px;
+
+}
+.foot_img{
+  width: 250px;
+  height: 120px;
+  margin-top: 35px;
+  /* border: 1px solid blanchedalmond; */
+ 
+}

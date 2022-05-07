@@ -1,0 +1,26 @@
+.container{
+    margin-top: 50px;
+ margin-left: 500px;
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 55%;
+    display: flex;
+    gap: 50px;
+}
+
+.sub_container{
+    height: 500px;
+    width: 55%;
+    /* margin-top: 100px; */
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    margin-left: 300px;
+    /* padding-left: 200px; */
+    /* background-color: rgb(179,191,206); */
+   
+}
+#offer{
+    height: 350px;
+    width: 500px;
+    /* border: 1px solid rebeccapurple; */
+}
